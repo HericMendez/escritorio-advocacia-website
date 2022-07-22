@@ -312,12 +312,10 @@
   background-image: url("../img/home-one/teste-bg.jpg");
 }
 
-.theme-dark .banner-item  .banner-left h1 a{
+.theme-dark .banner-item  .banner-left h1 {
   color: #ffffff;
 }
 
-.theme-dark  .banner-item  .banner-left .banner-link a{
-  color: #222;
-}
+
 
 /*# sourceMappingURL=theme-dark.css.map */
