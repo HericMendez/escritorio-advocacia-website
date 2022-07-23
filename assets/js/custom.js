@@ -188,9 +188,11 @@ function toggleTheme() {
     if (localStorage.getItem('lyzo_theme') === 'theme-dark') {
         setTheme('theme-dark');
         document.getElementById('slider').checked = false;
+
     } else {
         setTheme('theme-light');
       document.getElementById('slider').checked = true;
+
     }
 })();
 
