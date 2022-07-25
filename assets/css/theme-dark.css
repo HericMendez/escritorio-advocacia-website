@@ -309,7 +309,7 @@
 }
 
 .theme-dark .banner-img-one {
-  background-image: url("../img/home-one/teste-bg.jpg");
+  background-image: url("../img/home-one/banner-black.jpg");
 }
 
 .theme-dark .banner-item  .banner-left h1 {
@@ -317,7 +317,9 @@
 }
 
 
-
+.theme-dark .banner-item  .banner-left a {
+  color: #ffffff;
+}
 
 .toggler {
   display: inline-block;

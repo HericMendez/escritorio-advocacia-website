@@ -275,14 +275,14 @@ button:focus {
 /*-- End Navbar --*/
 /*-- Banner --*/
 .banner-img-one {
-  background-image: url("../img/home-one/teste3.jpg");
+  background-image: url("../img/home-one/banner-white.jpg");
   filter: brightness(80%);
   filter: contrast(80%);
 }
 
 @media only screen and (max-width: 991px) {
   .banner-img-one {
-    background-image: url("../img/home-one/teste3.jpg");
+    background-image: url("../img/home-one/banner-white.jpg");
     background-size: cover;
     background-position: 70% 50px;
   }
@@ -1306,11 +1306,12 @@ button:focus {
 /*-- End Location --*/
 /*-- Contact Form --*/
 .contact-form {
-  background-image: url("../img/home-one/office.jpg");
+  background-image: url("../img/home-one/office-bg.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   background-position-y: 100px;
+  
 }
 
 .contact-wrap {
