@@ -1,6 +1,7 @@
 /*==============================================================*/
 // Contact Form  JS
 /*==============================================================*/
+/*
 (function ($) {
     "use strict"; // Start of use strict
     $("#contactForm").validator().on("submit", function (event) {
@@ -25,7 +26,7 @@
 
         $.ajax({
             type: "POST",
-            url: "assets/php/form-process.php",
+            url: "https://getform.io/f/a2ea2d9d-c968-4ba0-84cf-1f3524482e26",
             data: "name=" + name + "&email=" + email + "&msg_subject=" + msg_subject + "&phone_number=" + phone_number + "&message=" + message +"&gridCheck=" + gridCheck,
             success : function(text){
                 if (text == "success"){
@@ -38,6 +39,7 @@
             }
         });
     }
+
     function formSuccess(){
         $("#contactForm")[0].reset();
         submitMSG(true, "Message Submitted!")
@@ -47,6 +49,8 @@
             $(this).removeClass();
         });
     }
+
+
     function submitMSG(valid, msg){
         if(valid){
             var msgClasses = "h4 tada animated text-success";
@@ -57,4 +61,6 @@
         $("#msgSubmit").removeClass().addClass(msgClasses).text(msg);
     }
 
-}(jQuery)); // End of use strict
+      
+
+}(jQuery)); // End of use strict  */
