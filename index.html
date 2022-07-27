@@ -1,576 +1,481 @@
 <!DOCTYPE html>
 <html lang="zxx">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-    <!-- Meanmenu CSS -->
-    <link rel="stylesheet" href="assets/css/meanmenu.css" />
-    <!-- Icofont CSS -->
-    <link rel="stylesheet" href="assets/css/icofont.min.css" />
-    <!-- Nice Select CSS -->
-    <link rel="stylesheet" href="assets/css/nice-select.min.css" />
-    <!-- Owl Carousel CSS -->
-    <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
-    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css" />
-    <!-- Magnific Popup CSS -->
-    <link rel="stylesheet" href="assets/css/magnific-popup.min.css" />
-    <!-- Flaticon CSS -->
-    <link rel="stylesheet" href="assets/fonts/flaticon.css" />
-    <!-- Animate CSS -->
-    <link rel="stylesheet" href="assets/css/animate.min.css" />
-    <!-- Odometer CSS -->
-    <link rel="stylesheet" href="assets/css/odometer.min.css" />
-    <!-- Style CSS -->
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <!-- Responsive CSS -->
-    <link rel="stylesheet" href="assets/css/responsive.css" />
-    <!-- Theme Dark CSS -->
-    <link rel="stylesheet" href="assets/css/theme-dark.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Dra. Michele Murbach - Advogada</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+  <!-- Meanmenu CSS -->
+  <link rel="stylesheet" href="assets/css/meanmenu.css" />
+  <!-- Icofont CSS -->
+  <link rel="stylesheet" href="assets/css/icofont.min.css" />
+  <!-- Nice Select CSS -->
+  <link rel="stylesheet" href="assets/css/nice-select.min.css" />
+  <!-- Owl Carousel CSS -->
+  <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
+  <link rel="stylesheet" href="assets/css/owl.theme.default.min.css" />
+  <!-- Magnific Popup CSS -->
+  <link rel="stylesheet" href="assets/css/magnific-popup.min.css" />
+  <!-- Flaticon CSS -->
+  <link rel="stylesheet" href="assets/fonts/flaticon.css" />
+  <!-- Animate CSS -->
+  <link rel="stylesheet" href="assets/css/animate.min.css" />
+  <!-- Odometer CSS -->
+  <link rel="stylesheet" href="assets/css/odometer.min.css" />
+  <!-- Style CSS -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <!-- Responsive CSS -->
+  <link rel="stylesheet" href="assets/css/responsive.css" />
+  <!-- Theme Dark CSS -->
+  <link rel="stylesheet" href="assets/css/theme-dark.css" />
 
-    <link rel="icon" type="image/png" href="assets/img/favicon.png" />
-  </head>
+  <title>Dra. Michele Murbach - Advogada</title>
 
-  <body>
-    <!-- Preloader -->
-    <div class="loader">
-      <div class="d-table">
-        <div class="d-table-cell">
-          <div class="sk-folding-cube">
-            <div class="sk-cube1 sk-cube"></div>
-            <div class="sk-cube2 sk-cube"></div>
-            <div class="sk-cube4 sk-cube"></div>
-            <div class="sk-cube3 sk-cube"></div>
+  <link rel="icon" type="image/png" href="assets/img/favicon.png" />
+</head>
+
+<body>
+  <!-- Preloader -->
+  <div class="loader">
+    <div class="d-table">
+      <div class="d-table-cell">
+        <div class="sk-folding-cube">
+          <div class="sk-cube1 sk-cube"></div>
+          <div class="sk-cube2 sk-cube"></div>
+          <div class="sk-cube4 sk-cube"></div>
+          <div class="sk-cube3 sk-cube"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Preloader -->
+
+  <!-- Navbar -->
+  <div class="navbar-area fixed-top">
+    <!-- Menu For Mobile Device -->
+    <div class="mobile-nav">
+      <a href="index.html" class="logo">
+        <img class="logo-mobile" src="assets/img/logo-branco.png" alt="Logo" />
+      </a>
+
+      <div class='switch-box '><label id='switch' class='switch'><input type='checkbox' onchange='toggleTheme()'
+            id='slider'><span class='slider round'></span></label></div>
+    </div>
+
+    <!-- Menu For Desktop Device -->
+    <div class="main-nav">
+      <div class="container">
+        <nav class="navbar navbar-expand-md navbar-light">
+          <a class="navbar-brand" href="index.html">
+            <img src="assets/img/logo-branco.png" alt="Logo" />
+          </a>
+
+          <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a href="#home" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="#about" class="nav-link">Sobre</a>
+              </li>
+              <li class="nav-item">
+                <a href="#services" class="nav-link">Serviços</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#" class="nav-link">Contato</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link dropdown-toggle">Redes Sociais</a>
+                <ul class="dropdown-menu">
+                  <li class="nav-item">
+                    <a href="#" class="nav-link"><span><i class="icofont-instagram">
+                        </i></span>&nbsp;&nbsp;Instagram</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a href="#" class="nav-link"><span><i class="icofont-whatsapp"> </i></span>&nbsp;&nbsp;Whatsapp</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a href="#" class="nav-link"><span><i class="icofont-email"> </i></span>&nbsp;&nbsp;Email</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a href="#" class="nav-link"><span><i class="icofont-linkedin"> </i></span>&nbsp;&nbsp;Linkedin</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a href="#" class="nav-link"><span><i class="icofont-facebook"> </i></span>&nbsp;&nbsp;Facebook</a>
+                  </li>
+
+                </ul>
+              <li class="nav-item">
+                <div class='switch-boxa'><label id='switch' class='toggler'><input type='checkbox' checked
+                      data-toggle="toggle" data-onstyle="primary" onchange='toggleTheme()' id='slider'><span
+                      class='slider round'></span></label></div>
+              </li>
+              <li class="nav-item">&nbsp; <span id="theme-name">Dark Mode</span> </li>
+              </li>
+            </ul>
+
+          </div>
+
+
+
+      </div>
+      </nav>
+    </div>
+  </div>
+  </div>
+  <!-- End Navbar -->
+
+  <!-- Banner -->
+  <div class="banner-area banner-img-one" id="#home">
+    <div class="d-table">
+      <div class="d-table-cell">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-6">
+              <div class="banner-item">
+                <div class="banner-left">
+                  <h1>Todos são iguais perante a lei</h1>
+                  <p>
+                    <i>“A essência, a dificuldade, a nobreza da advocacia é esta: permanecer sobre o último degrau da
+                      escada ao lado do acusado”.</i> – Francesco Carnelutti
+                  </p>
+                  <a href="#contactForm">Agende Sua Consulta
+                    <i class="icofont-arrow-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
     </div>
-    <!-- End Preloader -->
+  </div>
+  <!-- End Banner -->
 
-    <!-- Navbar -->
-    <div class="navbar-area fixed-top">
-      <!-- Menu For Mobile Device -->
-      <div class="mobile-nav">
-        <a href="index.html" class="logo">
-          <img class="logo-mobile" src="assets/img/logo-branco.png" alt="Logo" /> 
-        </a>
+  <!-- Help -->
+  <div class="help-area help-area-two help-area-four pb-70">
+    <div class="container-fluid">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <div class="help-item help-left">
+            <img src="assets/img/home-one/michele.jpg" alt="Help">
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="help-item">
+            <div class="help-right">
+              <h2>Somos a solução para seu caso</h2>
+              <p>Me chamo Michele Murhbach e sou Advogada Especializada em Direito Penal e Processo Penal, atuo nas áreas de Direito
+                Penal, Familiar e Cível. </p>
+              <p>uspendisse suscipit mauris eget lectus lobortis tincidunt. Nunc hendrerit, mi et rhoncus tempor, justo
+                risus bibendum magna, at fermentum ante arcu et tortor. Pellentesque egestas enim et velit elementum
+                fermentum.</p>
 
-        <div class='switch-box '><label id='switch' class='switch'><input type='checkbox' onchange='toggleTheme()' id='slider'><span class='slider round'></span></label></div>
+
+            </div>
+          </div>
+        </div>
       </div>
 
-      <!-- Menu For Desktop Device -->
-      <div class="main-nav">
-        <div class="container">
-          <nav class="navbar navbar-expand-md navbar-light">
-            <a class="navbar-brand" href="index.html">
-              <img src="assets/img/logo-branco.png" alt="Logo" />
-            </a>
-            
-            <div
-              class="collapse navbar-collapse mean-menu"
-              id="navbarSupportedContent"
-            >
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a href="#home" class="nav-link">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a href="#about" class="nav-link">Sobre</a>
-                </li>
-                <li class="nav-item">
-                  <a href="#services" class="nav-link">Serviços</a>
-                </li>
+      <div class="row align-items-center help-wrap">
+        <div class="col-lg-6">
+          <div class="help-item">
+            <div class="help-right">
+              <h2>Nos Especializamos em Justiça Criminal</h2>
+              <p>
+                Sendo especializada na prática jurídica de Direito Criminal, atendo pessoas físicas e jurídicas, em
+                processos criminais e administrativos. Estou pronta para atuar em prol da vítima ou do acusado. Se você
+                ou sua empresa estão sendo acusados de um crime, ou tiveram seus direitos violados de alguma forma,
+                agende uma consultoria jurídica. Defenderei seus direitos até onde a lei permitir. </p>
 
-                <li class="nav-item">
-                  <a href="#" class="nav-link">Contato</a>
-                </li>
-                <li class="nav-item">
-                  <a href="#" class="nav-link dropdown-toggle">Redes Sociais</a>
-                  <ul class="dropdown-menu">
-                    <li class="nav-item">
-                      <a href="#" class="nav-link"
-                        ><span><i class="icofont-instagram"> </i></span
-                        >&nbsp;&nbsp;Instagram</a
-                      >
-                    </li>
-
-                    <li class="nav-item">
-                      <a href="#" class="nav-link"
-                        ><span><i class="icofont-whatsapp"> </i></span
-                        >&nbsp;&nbsp;Whatsapp</a
-                      >
-                    </li>
-
-                    <li class="nav-item">
-                      <a href="#" class="nav-link"
-                        ><span><i class="icofont-email"> </i></span
-                        >&nbsp;&nbsp;Email</a
-                      >
-                    </li>
-
-                    <li class="nav-item">
-                      <a href="#" class="nav-link"
-                        ><span><i class="icofont-linkedin"> </i></span
-                        >&nbsp;&nbsp;Linkedin</a
-                      >
-                    </li>
-
-                    <li class="nav-item">
-                      <a href="#" class="nav-link"
-                        ><span><i class="icofont-facebook"> </i></span
-                        >&nbsp;&nbsp;Facebook</a
-                      >
-                    </li>
-
-                  </ul>
-                  <li class="nav-item">
-                    <div class='switch-boxa'><label id='switch' class='toggler'><input type='checkbox'  checked data-toggle="toggle" data-onstyle="primary" onchange='toggleTheme()' id='slider'><span class='slider round'></span></label></div>
+              <div class="help-inner-left">
+                <ul>
+                  <li>
+                    <i class="flaticon-checkmark"></i>
+                    Direito Penal
                   </li>
-                  <li class="nav-item">&nbsp; <span id="theme-name">Dark Mode</span>  </li>
+                  <li>
+                    <i class="flaticon-checkmark"></i>
+                    Processo Penal
+                  </li>
+                </ul>
+              </div>
+              <div class="help-inner-right">
+                <ul>
+                  <li>
+                    <i class="flaticon-checkmark"></i>
+                    Flagrante 24h
+                  </li>
+                  <li>
+                    <i class="flaticon-checkmark"></i>
+                    Tribunal do Júri
+                  </li>
+                </ul>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="help-item help-left">
+            <img src="assets/img/home-one/criminal_justice.jpg" alt="Help">
+          </div>
+        </div>
+      </div>
+      <div class="help-shape">
+        <img src="assets/img/home-one/6.png" alt="Shape">
+      </div>
+    </div>
+  </div>
+  <!-- End Help -->
+
+  <!-- Practice -->
+  <section id="services" class="practice-area pt-100 pb-70">
+    <div class="container">
+      <div class="section-title">
+        <span>COMO PODEMOS AJUDAR</span>
+        <h2>Nossas Práticas Jurídicas</h2>
+      </div>
+      <div class="row">
+        <div class="col-sm-6 col-lg-4">
+          <div class="practice-item">
+            <div class="practice-icon">
+              <i class="flaticon-law"></i>
+            </div>
+            <h3>Direito Criminal</h3>
+            <p>
+              Aplicação do Código Penal, Defesa de Acusação, Direito Penal, Redução, Suspensão ou Cancelamento de Pena.
+            </p>
+
+            <img class="practice-shape-one" src="assets/img/home-one/7.png" alt="Shape" />
+            <img class="practice-shape-two" src="assets/img/home-one/8.png" alt="Shape" />
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4">
+          <div class="practice-item">
+            <div class="practice-icon">
+              <i class="flaticon-family"></i>
+            </div>
+            <h3>Direito Familiar</h3>
+            <p>
+              Casamento, Divórcio, Relações de Parentesco, Filiação, Pensão Alimentícia, Tutela, Curatela, Guarda.
+
+            </p>
+
+            <img class="practice-shape-one" src="assets/img/home-one/7.png" alt="Shape" />
+            <img class="practice-shape-two" src="assets/img/home-one/8.png" alt="Shape" />
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4">
+          <div class="practice-item">
+            <div class="practice-icon">
+              <i class="flaticon-inheritance"></i>
+            </div>
+            <h3>Direito Cível</h3>
+            <p>
+              Mediação de Conflitos, Obrigações e Contratos, Código de Defesa do Consumidor, Inventários.
+              <br/> &nbsp;
+            </p>
+
+            <img class="practice-shape-one" src="assets/img/home-one/7.png" alt="Shape" />
+            <img class="practice-shape-two" src="assets/img/home-one/8.png" alt="Shape" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Practice -->
+
+  <!-- Contact Form -->
+  <div class="contact-form ptb-100">
+    <div>
+
+    </div>
+
+    <!-- Location -->
+
+    <div class="loaction-area">
+      <div class="container">
+        <div class="row location-bg">
+          <div class="col-sm-6 col-lg-4">
+            <div class="location-item">
+              <div class="location-icon">
+                <i class="flaticon-pin"></i>
+                <img src="assets/img/home-one/12.png" alt="Shape" />
+              </div>
+              <h3>Location</h3>
+              <ul>
+                <li>2108-267 Road Quadra,Toronto, Victiria Canada</li>
+              </ul>
+              <a class="location-link" href="#">View on gogle map</a>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-lg-4">
+            <div class="location-item">
+              <div class="location-icon">
+                <i class="flaticon-email"></i>
+                <img src="assets/img/home-one/12.png" alt="Shape" />
+              </div>
+              <h3>Email</h3>
+              <ul>
+                <li>
+                  <a href="mailto:hello@lyzo.com">michelemurbach@adv.oabsp.org.br</a>
+                </li>
+
+              </ul>
+              <a class="location-link" href="#">View on gogle map</a>
+            </div>
+          </div>
+          <div class="col-sm-6 offset-sm-3 offset-lg-0 col-lg-4">
+            <div class="location-item">
+              <div class="location-icon">
+                <i class="flaticon-call"></i>
+                <img src="assets/img/home-one/12.png" alt="Shape" />
+              </div>
+              <h3>Phone</h3>
+              <ul>
+                <li>
+                  <a href="tel:+0755543332322">+07 5554 3332 322</a>
+                </li>
+                <li>
+                  <a href="tel:+0555962435736">+05 5596 2435 736</a>
                 </li>
               </ul>
-  
-            </div>
-
-
-            
-            </div>
-          </nav>
-        </div>
-      </div>
-    </div>
-    <!-- End Navbar -->
-
-    <!-- Banner -->
-    <div class="banner-area banner-img-one" id="#home">
-      <div class="d-table">
-        <div class="d-table-cell">
-          <div class="container">
-            <div class="row align-items-center">
-              <div class="col-lg-6">
-                <div class="banner-item">
-                  <div class="banner-left">
-                    <h1>Nós Lutamos Por Sua Justiça</h1>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus fringilla lorem quis ultricies hendrerit. Donec vitae dui at justo sollicitudin pretium in tristique sapien. In rhoncus felis id purus iaculis, eu fringilla arcu porttitor. 
-                    </p>
-                    <a  href="#contactForm"
-                      >Agende Sua Consulta
-                      <i class="icofont-arrow-right"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-
+              <a class="location-link" href="#">View on gogle map</a>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- End Banner -->
 
-           <!-- Help -->
-           <div class="help-area help-area-two help-area-four pb-70">
-            <div class="container-fluid">
-                <div class="row align-items-center">
-                    <div class="col-lg-6">
-                        <div class="help-item help-left">
-                            <img src="assets/img/home-one/michele.jpg" alt="Help">
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="help-item">
-                            <div class="help-right">
-                                <h2>Somos a solução para seu caso</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus fringilla lorem quis ultricies hendrerit. Donec vitae dui at justo sollicitudin pretium in tristique sapien. In rhoncus felis id purus iaculis, eu fringilla arcu porttitor. </p>
-                                <p>uspendisse suscipit mauris eget lectus lobortis tincidunt. Nunc hendrerit, mi et rhoncus tempor, justo risus bibendum magna, at fermentum ante arcu et tortor. Pellentesque egestas enim et velit elementum fermentum.</p>
-                    
-                                <div class="help-signature">
-                                    <img src="assets/img/home-one/4.png" alt="Signature">
-                                </div>
-                                <h3>Barrister Babatunde Smithi</h3>
-                                <span>Founder and CEO</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+    <!-- End Location -->
 
-                <div class="row align-items-center help-wrap">
-                    <div class="col-lg-6">
-                        <div class="help-item">
-                            <div class="help-right">
-                                <h2>Nos Especializamos em Justiça Criminal</h2>
-                                <p>Phasellus quis libero arcu. Aenean pellentesque quis lectus non viverra. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam sem lacus, tincidunt et libero ut, convallis egestas nibh. Proin scelerisque eleifend rhoncus. Suspendisse eget odio at sapien tempus ullamcorper. Praesent non magna purus. Praesent malesuada semper sollicitudin. Suspendisse potenti.</p>
-                                <div class="help-inner-left">
-                                    <ul>
-                                        <li>
-                                            <i class="flaticon-checkmark"></i>
-                                            On Time Response
-                                        </li>
-                                        <li>
-                                            <i class="flaticon-checkmark"></i>
-                                            Legal Way
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="help-inner-right">
-                                    <ul>
-                                        <li>
-                                            <i class="flaticon-checkmark"></i>
-                                            Legal Services
-                                        </li>
-                                        <li>
-                                            <i class="flaticon-checkmark"></i>
-                                            Honest Work
-                                        </li>
-                                    </ul>
-                                </div>
-                  
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="help-item help-left">
-                            <img src="assets/img/home-one/criminal_justice.jpg" alt="Help">
-                        </div>
-                    </div>
-                </div>
-                <div class="help-shape">
-                    <img src="assets/img/home-one/6.png" alt="Shape">
-                </div>
-            </div>
-        </div>
-        <!-- End Help -->
-
-    <!-- Practice -->
-    <section id="services" class="practice-area pt-100 pb-70">
-      <div class="container">
-        <div class="section-title">
-          <span>COMO PODEMOS AJUDAR</span>
-          <h2>Nossas Práticas Jurídicas</h2>
-        </div>
-        <div class="row">
-          <div class="col-sm-6 col-lg-4">
-            <div class="practice-item">
-              <div class="practice-icon">
-                <i class="flaticon-law"></i>
-              </div>
-              <h3>Direito Criminal</h3>
-              <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea
-                quisquam, expedita excepturi adipisci
-              </p>
-
-              <img
-                class="practice-shape-one"
-                src="assets/img/home-one/7.png"
-                alt="Shape"
-              />
-              <img
-                class="practice-shape-two"
-                src="assets/img/home-one/8.png"
-                alt="Shape"
-              />
+    <div class="container-fluid">
+      <form id="contactForm" form action="https://getform.io/f/9ee2d2f5-ad9f-40a1-a6e8-a618bd6a3b6c" method="POST">
+        <div class="row contact-wrap">
+          <div class="col-sm-6 col-lg-6">
+            <div class="form-group">
+              <input type="text" name="name" id="name" class="form-control" required data-error="Insira seu nome!"
+                placeholder="Nome Completo" />
+              <div class="help-block with-errors"></div>
             </div>
           </div>
-          <div class="col-sm-6 col-lg-4">
-            <div class="practice-item">
-              <div class="practice-icon">
-                <i class="flaticon-family"></i>
-              </div>
-              <h3>Direito Familiar</h3>
-              <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea
-                quisquam, expedita excepturi adipisci
-              </p>
 
-              <img
-                class="practice-shape-one"
-                src="assets/img/home-one/7.png"
-                alt="Shape"
-              />
-              <img
-                class="practice-shape-two"
-                src="assets/img/home-one/8.png"
-                alt="Shape"
-              />
+          <div class="col-sm-6 col-lg-6">
+            <div class="form-group">
+              <input type="email" name="email" id="email" class="form-control" required data-error="Insira seu E-mail!"
+                placeholder="Email" />
+              <div class="help-block with-errors"></div>
             </div>
           </div>
-          <div class="col-sm-6 col-lg-4">
-            <div class="practice-item">
-              <div class="practice-icon">
-                <i class="flaticon-inheritance"></i>
-              </div>
-              <h3>Direito Cível</h3>
-              <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea
-                quisquam, expedita excepturi adipisci
-              </p>
 
-              <img
-                class="practice-shape-one"
-                src="assets/img/home-one/7.png"
-                alt="Shape"
-              />
-              <img
-                class="practice-shape-two"
-                src="assets/img/home-one/8.png"
-                alt="Shape"
-              />
+          <div class="col-sm-6 col-lg-6">
+            <div class="form-group">
+              <input type="text" name="phone_number" id="phone_number" required data-error="Insira seu número!"
+                class="form-control" placeholder="Telefone p/ contato" />
+              <div class="help-block with-errors"></div>
             </div>
+          </div>
+
+          <div class="col-sm-6 col-lg-6">
+            <div class="form-group">
+              <input type="text" name="msg_subject" id="msg_subject" class="form-control" required
+                data-error="Escreva o assunto da mensagem!" placeholder="Assunto" />
+              <div class="help-block with-errors"></div>
+            </div>
+          </div>
+
+          <div class="col-md-12 col-lg-12">
+            <div class="form-group">
+              <textarea name="message" class="form-control" id="message" cols="30" rows="8" required
+                data-error="O corpo da mensagem não pode ser enviado vazio! Escreva algo!"
+                placeholder="Descreva o seu caso"></textarea>
+              <div class="help-block with-errors"></div>
+            </div>
+          </div>
+
+          <div class="col-md-12 col-lg-12">
+            <div class="text-center">
+              <button type="subi" class="contact-btn">Submit Case</button>
+            </div>
+            <div id="msgSubmit" class="h3 text-center hidden"></div>
+            <div class="clearfix"></div>
           </div>
         </div>
-      </div>
-    </section>
-    <!-- End Practice -->
-
-    <!-- Contact Form -->
-    <div class="contact-form ptb-100">
-        <div>
-
-        </div>
-
-      <!-- Location -->
-
-      <div class="loaction-area">
-        <div class="container">
-          <div class="row location-bg">
-            <div class="col-sm-6 col-lg-4">
-              <div class="location-item">
-                <div class="location-icon">
-                  <i class="flaticon-pin"></i>
-                  <img src="assets/img/home-one/12.png" alt="Shape" />
-                </div>
-                <h3>Location</h3>
-                <ul>
-                  <li>2108-267 Road Quadra,Toronto, Victiria Canada</li>
-                </ul>
-                <a class="location-link" href="#">View on gogle map</a>
-              </div>
-            </div>
-
-            <div class="col-sm-6 col-lg-4">
-              <div class="location-item">
-                <div class="location-icon">
-                  <i class="flaticon-email"></i>
-                  <img src="assets/img/home-one/12.png" alt="Shape" />
-                </div>
-                <h3>Email</h3>
-                <ul>
-                  <li>
-                    <a href="mailto:hello@lyzo.com">michelemurbach@adv.oabsp.org.br</a>
-                  </li>
-
-                </ul>
-                <a class="location-link" href="#">View on gogle map</a>
-              </div>
-            </div>
-            <div class="col-sm-6 offset-sm-3 offset-lg-0 col-lg-4">
-              <div class="location-item">
-                <div class="location-icon">
-                  <i class="flaticon-call"></i>
-                  <img src="assets/img/home-one/12.png" alt="Shape" />
-                </div>
-                <h3>Phone</h3>
-                <ul>
-                  <li>
-                    <a href="tel:+0755543332322">+07 5554 3332 322</a>
-                  </li>
-                  <li>
-                    <a href="tel:+0555962435736">+05 5596 2435 736</a>
-                  </li>
-                </ul>
-                <a class="location-link" href="#">View on gogle map</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- End Location -->
-
-      <div class="container-fluid">
-        <form id="contactForm" form action="https://getform.io/f/9ee2d2f5-ad9f-40a1-a6e8-a618bd6a3b6c" method="POST">
-          <div class="row contact-wrap">
-            <div class="col-sm-6 col-lg-6">
-              <div class="form-group">
-                <input
-                  type="text"
-                  name="name"
-                  id="name"
-                  class="form-control"
-                  required
-                  data-error="Insira seu nome!"
-                  placeholder="Nome Completo"
-                />
-                <div class="help-block with-errors"></div>
-              </div>
-            </div>
-
-            <div class="col-sm-6 col-lg-6">
-              <div class="form-group">
-                <input
-                  type="email"
-                  name="email"
-                  id="email"
-                  class="form-control"
-                  required
-                  data-error="Insira seu E-mail!"
-                  placeholder="Email"
-                />
-                <div class="help-block with-errors"></div>
-              </div>
-            </div>
-
-            <div class="col-sm-6 col-lg-6">
-              <div class="form-group">
-                <input
-                  type="text"
-                  name="phone_number"
-                  id="phone_number"
-                  required
-                  data-error="Insira seu número!"
-                  class="form-control"
-                  placeholder="Telefone p/ contato"
-                />
-                <div class="help-block with-errors"></div>
-              </div>
-            </div>
-
-            <div class="col-sm-6 col-lg-6">
-              <div class="form-group">
-                <input
-                  type="text"
-                  name="msg_subject"
-                  id="msg_subject"
-                  class="form-control"
-                  required
-                  data-error="Escreva o assunto da mensagem!"
-                  placeholder="Assunto"
-                />
-                <div class="help-block with-errors"></div>
-              </div>
-            </div>
-
-            <div class="col-md-12 col-lg-12">
-              <div class="form-group">
-                <textarea
-                  name="message"
-                  class="form-control"
-                  id="message"
-                  cols="30"
-                  rows="8"
-                  required
-                  data-error="O corpo da mensagem não pode ser enviado vazio! Escreva algo!"
-                  placeholder="Descreva o seu caso"
-                ></textarea>
-                <div class="help-block with-errors"></div>
-              </div>
-            </div>
-
-            <div class="col-md-12 col-lg-12">
-              <div class="text-center">
-                <button type="subi" class="contact-btn">Submit Case</button>
-              </div>
-              <div id="msgSubmit" class="h3 text-center hidden"></div>
-              <div class="clearfix"></div>
-            </div>
-          </div>
-        </form>
-      </div>
+      </form>
     </div>
+  </div>
 
-    <!-- End Contact Form -->
+  <!-- End Contact Form -->
 
-    <!-- Footer -->
+  <!-- Footer -->
 
-    <footer class="bg-dark text-center text-white pt-5">
-      <!-- Grid container -->
-      <div class="container p-4 pb-0">
-        <!-- Section: Social media -->
-        <section class="mb-4">
-          <!-- Facebook -->
-          <a
-            class="btn btn-outline-light btn-floating m-1"
-            href="#!"
-            role="button"
-            ><i class="icofont-facebook"></i
-          ></a>
+  <footer class="bg-dark text-center text-white pt-5">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="icofont-facebook"></i></a>
 
-          <!-- Whatsapp -->
-          <a
-            class="btn btn-outline-light btn-floating m-1"
-            href="#!"
-            role="button"
-            ><i class="icofont-whatsapp"></i
-          ></a>
+        <!-- Whatsapp -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="icofont-whatsapp"></i></a>
 
-          <!-- Google -->
-          <a
-            class="btn btn-outline-light btn-floating m-1"
-            href="#!"
-            role="button"
-            ><i class="icofont-email"></i
-          ></a>
+        <!-- Google -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="icofont-email"></i></a>
 
-          <!-- Instagram -->
-          <a
-            class="btn btn-outline-light btn-floating m-1"
-            href="#!"
-            role="button"
-            ><i class="icofont-instagram"></i
-          ></a>
+        <!-- Instagram -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="icofont-instagram"></i></a>
 
-          <!-- Linkedin -->
-          <a
-            class="btn btn-outline-light btn-floating m-1"
-            href="#!"
-            role="button"
-            ><i class="icofont-linkedin"></i
-          ></a>
-        </section>
-        <!-- Section: Social media -->
-      </div>
-      <!-- Grid container -->
+        <!-- Linkedin -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="icofont-linkedin"></i></a>
+      </section>
+      <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
 
-      <!-- Copyright -->
-      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
-        © 2020 Copyright:
-        <a class="text-white" href="https://mdbootstrap.com/"
-          >MDBootstrap.com</a
-        >
-      </div>
-      <!-- Copyright -->
-    </footer>
-    <!-- End Footer -->
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+      © 2020 Copyright:
+      <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- End Footer -->
 
-    <!-- Essential JS -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <!-- Meanmenu JS -->
-    <script src="assets/js/jquery.meanmenu.js"></script>
-    <!-- Nice Select JS -->
-    <script src="assets/js/jquery.nice-select.min.js"></script>
-    <!-- Form Ajaxchimp JS -->
-    <script src="assets/js/jquery.ajaxchimp.min.js"></script>
-    <!-- Form Validator JS -->
-    <script src="assets/js/form-validator.min.js"></script>
-    <!-- Contact JS -->
-    <script src="assets/js/contact-form-script.js"></script>
-    <!-- Owl Carousel JS -->
-    <script src="assets/js/owl.carousel.min.js"></script>
-    <!-- Odometer JS -->
-    <script src="assets/js/odometer.min.js"></script>
-    <script src="assets/js/jquery.appear.min.js"></script>
-    <!-- Magnific Popup JS -->
-    <script src="assets/js/jquery.magnific-popup.min.js"></script>
-    <!-- animate__animated animate__JS -->
-    <script src="assets/js/wow.min.js"></script>
-    <!-- Custom JS -->
-    <script src="assets/js/custom.js"></script>
-  </body>
+  <!-- Essential JS -->
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <!-- Meanmenu JS -->
+  <script src="assets/js/jquery.meanmenu.js"></script>
+  <!-- Nice Select JS -->
+  <script src="assets/js/jquery.nice-select.min.js"></script>
+  <!-- Form Ajaxchimp JS -->
+  <script src="assets/js/jquery.ajaxchimp.min.js"></script>
+  <!-- Form Validator JS -->
+  <script src="assets/js/form-validator.min.js"></script>
+  <!-- Contact JS -->
+  <script src="assets/js/contact-form-script.js"></script>
+  <!-- Owl Carousel JS -->
+  <script src="assets/js/owl.carousel.min.js"></script>
+  <!-- Odometer JS -->
+  <script src="assets/js/odometer.min.js"></script>
+  <script src="assets/js/jquery.appear.min.js"></script>
+  <!-- Magnific Popup JS -->
+  <script src="assets/js/jquery.magnific-popup.min.js"></script>
+  <!-- animate__animated animate__JS -->
+  <script src="assets/js/wow.min.js"></script>
+  <!-- Custom JS -->
+  <script src="assets/js/custom.js"></script>
+</body>
+
 </html>
