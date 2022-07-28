@@ -299,6 +299,8 @@ button:focus {
   background-size: cover;
 
   position: relative;
+  z-index: 999;
+
 }
 
 .banner-item .banner-left {
@@ -393,9 +395,9 @@ button:focus {
   border-left: 40px solid #b76e7959;
   border-right: 40px solid #b76e7959;
   display: inline-block;
-  position: absolute;
-  bottom: -65px;
+
   margin-left: auto;
+
 }
 
 .banner-bottom ul {
