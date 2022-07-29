@@ -373,6 +373,18 @@ input:checked + .slider:before {
   border-radius: 50%;
 }
 
+.theme-dark .banner-bottom ul li:last-child span {
+
+  color: #fff;
+}
+
+.theme-dark .banner-bottom ul li:last-child p {
+  color: #fff;
+}
+
+.theme-dark .banner-bottom ul li {
+  background-color: #1d1c1c;;
+}
 
 
 /*# sourceMappingURL=theme-dark.css.map */

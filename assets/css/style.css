@@ -39,7 +39,7 @@ body {
   font-family: "Poppins", sans-serif;
   color: #ffffff;
   background-color: #ffe3fc;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 h1,
@@ -414,6 +414,7 @@ button:focus {
   margin: 0;
   padding: 0;
   margin-bottom: -2px;
+  background-color: #b76e79;
 }
 
 .banner-bottom ul li {
@@ -446,6 +447,12 @@ button:focus {
   margin-bottom: 8px;
   color: #222;
 }
+.banner-bottom ul li:last-child span {
+  font-size: 24px;
+  margin-bottom: 8px;
+  color: #222;
+}
+
 
 .banner-bottom ul li:last-child p {
   margin-bottom: 0;
@@ -454,10 +461,12 @@ button:focus {
   color: #222;
 }
 
+
 .banner-bottom ul li:last-child img {
   position: absolute;
   right: 0;
   bottom: 0;
+
 }
 
 /*-- End Banner --*/
@@ -762,6 +771,7 @@ button:focus {
   font-size: 38px;
   font-family: "Playfair Display", serif;
   margin-bottom: 0;
+
 }
 
 .practice-area {
@@ -777,6 +787,7 @@ button:focus {
   overflow: hidden;
   -webkit-transition: 0.5s all ease;
   transition: 0.5s all ease;
+  height: 100%;
 }
 
 .practice-item:hover {
@@ -1220,7 +1231,8 @@ button:focus {
 /*-- Location --*/
 .loaction-area {
   position: relative;
-  top: 200px;
+  -ms-transform: translateY(-50%);
+  transform: translateY(40%);
 }
 
 .location-bg {
@@ -1298,7 +1310,7 @@ button:focus {
   list-style-type: none;
   display: block;
   margin-bottom: 3px;
-  font-size: 15px;
+  font-size: 18px;
 }
 
 .location-item ul li:last-child {
@@ -1326,11 +1338,11 @@ button:focus {
 /*-- End Location --*/
 /*-- Contact Form --*/
 .contact-form {
-  background-image: url("../img/home-one/office-bg.jpg");
+  background-image: url("../img/advogada_beca.png");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  background-position-y: 100px;
+
   height: 100vh;
 
 
@@ -3977,6 +3989,29 @@ footer .copyright-area .copyright-right {
 
 .banner-link {
   color: #222;
+}
+
+.banner-list {
+  background-color: #1d1c1c;
+
+}
+
+.banner-list {
+  color: #fff;
+}
+
+.section-title h1 {
+  color: #fff;
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+}
+
+.footer-img{
+  width: 550px;
+  margin: auto;
+  margin-bottom: 40px;
+  padding: 20px;
+  filter: invert(100%);
 }
 
 /*# sourceMappingURL=style.css.map */
