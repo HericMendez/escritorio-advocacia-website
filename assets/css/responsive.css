@@ -20,7 +20,8 @@
   /*----- Home Page 1 -----*/
   /*-- Navbar --*/
   .mobile-nav .logo {
-    width: 20px;
+    width: 200px;
+    filter: invert(100%);
   }
   .mobile-nav.mean-container .mean-nav ul li a.active {
     color: #b76e79;
@@ -1060,7 +1061,8 @@
   /*----- Home Page 1 -----*/
   /*-- Navbar --*/
   .mobile-nav .logo {
-    width: 75px;
+    width: 200px;
+    filter: invert(100%);
   }
   .mobile-nav.mean-container .mean-nav ul li a.active {
     color: #b76e79;
